@@ -8,28 +8,28 @@ const wrongSound = new Audio("./");
 // const image = document.getElementById("image");
 
 // 1. // Define the canvas and context =>
-const c = document.createElement("canvas");
-const ctx = c.getContext("2d");
-c.width = 800;
-c.height = 500;
-// Set the position of the canvas to absolute =>
-c.style.position = "absolute";
-c.style.position = "center";
-// Calculate the top and left CSS properties to center the canvas
-const topPos = window.innerHeight / 2 - c.height / 2;
-const leftPos = window.innerWidth / 2 - c.width / 2;
-c.style.top = topPos + "px";
-c.style.left = leftPos + "px";
-// Append the canvas to the document body
-document.body.appendChild(c);
-// <= 1. // Define the canvas and context
+// const c = document.createElement("canvas");
+// const ctx = c.getContext("2d");
+// c.width = 800;
+// c.height = 500;
+// // Set the position of the canvas to absolute =>
+// c.style.position = "absolute";
+// c.style.position = "center";
+// // Calculate the top and left CSS properties to center the canvas
+// const topPos = window.innerHeight / 2 - c.height / 2;
+// const leftPos = window.innerWidth / 2 - c.width / 2;
+// c.style.top = topPos + "px";
+// c.style.left = leftPos + "px";
+// // Append the canvas to the document body
+// document.body.appendChild(c);
+// // <= 1. // Define the canvas and context
 
-function loop() {
-  // o. change the background-colour
-  ctx.fillStyle = "#26B605";
-  ctx.fillRect(0, 0, c.width, c.height);
-  requestAnimationFrame(loop);
-}
+// function loop() {
+//   // o. change the background-colour
+//   ctx.fillStyle = "#26B605";
+//   ctx.fillRect(0, 0, c.width, c.height);
+//   requestAnimationFrame(loop);
+// }
 
 // The judgement for the charactars you typed is correct or not.
 // Reads the second argument"()=> {}" every time you input.=>

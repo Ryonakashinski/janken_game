@@ -17,12 +17,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.img image {
-  font-size: 2px;
-  width: 2px;
-  height: 2px;
-}
-
 .container {
   background-color: rgb(196, 81, 5);
   font-size: 2rem;
