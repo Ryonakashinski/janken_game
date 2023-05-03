@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* covers the whole screen */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* doesn't allow to scroll*/
+  overflow: hidden;
+  /* background: linear-gradient(to left top, #10e408, #07f0ec); */
+  background-color: #00e763;
+  font-family: "Poppins", sans-serif;
+}
+
+.img image {
+  font-size: 2px;
+  width: 2px;
+  height: 2px;
+}
+
+.container {
+  background-color: rgb(196, 81, 5);
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 4rem;
+  /* Round the edges of the textarea */
+  border-radius: 0.5rem;
+  position: relative;
+  width: 700px;
+  min-width: 600px;
+  max-width: 90%;
+  box-shadow: 3px 5px 6px rgb(59, 24, 1);
+  margin-right: 400px; /* Add this line to move the container 20 pixels to the left */
+}
+
+.container .type-Input {
+  margin-top: 4rem;
+  font-size: 3rem;
+}
+
+.timer {
+  position: relative;
+  top: 2rem;
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgba(53, 10, 0, 0.703);
+}
+
+.type-display {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.type-Input {
+  background: transparent;
+  border: 5px solid rgb(73, 23, 1);
+  outline: none;
+  border-radius: 2rem;
+  width: 100%;
+  height: 14rem;
+  /* equal spacing  */
+  margin: auto;
+  resize: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+/* when you focus in the textarea */
+.type-Input:focus {
+  border-color: black;
+}
+
+.correct {
+  color: #10e408;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
